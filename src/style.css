@@ -2,13 +2,6 @@ body {
   font-family: arial, sans-serif;
 }
 
-.weather-app {
-  max-width: 600px;
-  margin: 30px auto;
-  padding: 20px;
-  border: 1px solid #dadde1;
-}
-
 h1 {
   color: #878787;
   font-size: 24px;
@@ -27,9 +20,10 @@ li {
   margin: 0;
   padding: 0;
   color: #878787;
-  font-size: 24px;
+  font-size: 14px;
   font-weight: 100;
-  line-height: 28px;
+  line-height: 25px;
+  margin-top: -12px;
 }
 
 .col-ms-6 {
@@ -38,4 +32,17 @@ li {
 
 .image {
   text-align: left;
+}
+
+.weather-app {
+  max-width: 600px;
+  margin: 30px auto;
+  padding: 20px;
+  border: 1px solid #dadde1;
+  border-radius: 5px
+}
+
+.app {
+  max-width: 600px;
+  margin: -30px auto;
 }
